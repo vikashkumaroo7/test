@@ -1,0 +1,2 @@
+terraform_variable:
+  image: 'nodered/node-red:latest'
