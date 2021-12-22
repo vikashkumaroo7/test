@@ -22,7 +22,7 @@
       terraform:
         project_path: "/{{ workspace }}/terraform_script"
         state: present
-        backend_config
+        backend_config:
           region: "{{ region }}"
           bucket: "S3"
           key: "/{{ workspace }}/terraform_script/terraform.tfstate"
